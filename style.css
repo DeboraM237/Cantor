@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Abril+Fatface & family = Poppins & display=swap');
+
+:root{
+    --cor1:#434A59;
+    --cor2:#868C54;
+    --cor3:#BABF30;
+    --cor4:#F26B1D;
+    --cor5:#F2EEEB;
+
+  }
+
+body{
+    background-color: #d9dd61;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+header{  /*direção, cor1, cor2*/
+
+    background-image: linear-gradient(to top, var(--cor5), var(--cor1));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 75px;
+    
+    }
+    
+h1{
+    font-family:'Abril Fatface', sans-serif;
+    color:black;
+    font-weight:900;
+    margin-bottom: 15px;
+}
+
+header > p{
+    colo: var(--cor3);
+    font-size: 17px;
+    text-align: center;
+   
+}
+
+nav{
+background-color: var(--cor5);
+padding: 15px;
+box-shadow: 1px 2px 6px 3px black;
+}
+
+nav > a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+}  
+   
+  main{
+    background-color: var(--cor5);
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto; 
+    text-align: justify;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 2px -1px 6px 2px black;
+
+}
+
+img{
+   border: 6px solid var(--cor4);
+
+  }
+
+figcaption{
+   background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer >p{
+    font-size: 13px;
+    text-align: center;
+}
